@@ -16,5 +16,6 @@ Class {
 
 { #category : #accessing }
 SGLDirectSingletonAccessException >> defaultAction [
+	self class comment inspect.
 	UnhandledError signalForException: self
 ]

@@ -16,5 +16,7 @@ Class {
 
 { #category : #accessing }
 SGLSingletonInstanciationException >> defaultAction [
-	UnhandledError signalForException: self
+	self class comment inspect.
+	UnhandledError signalForException: self.
+	
 ]
