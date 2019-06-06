@@ -11,6 +11,6 @@ BaselineOfSingleton >> baseline: spec [
 		for: #common
 		do: [ spec package: 'Singleton-Core'.
 			spec
-				package: 'Singleton-Tests'
+				package: 'Singleton-Test'
 				with: [ spec requires: 'Singleton-Core' ] ]
 ]
